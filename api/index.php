@@ -4,7 +4,7 @@
  * Using MockAPI as data.json alternative
  */
 
-$mockapi_url = "https://xxxxxx.mockapi.io/pages"; // <--- USE YOUR OWN MOCKAPI
+$mockapi_url = "https://6958cb556c3282d9f1d5d1cf.mockapi.io/pages"; // <--- USE YOUR OWN MOCKAPI
 
 // --- FETCH & CONVERT DATA (Logic Mapping) ---
 function get_all_pages($url) {
