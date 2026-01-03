@@ -1,8 +1,0 @@
-RewriteEngine On
-
-# jangan proses kalo file/folder betulan ada
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# kirim semua request ke index.php untuk parameter 'page'
-RewriteRule ^([^/]+)$ index.php?page=$1 [L,QSA]
